@@ -1,7 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "ai-trip-planner"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
+version = "0.0.1"
+description = "A project to build an AI Trip Planner"
+authors = [
+    { name = "Akande Soji", email = "akandesoji4christ@gmail.com" }
+]
 dependencies = []
